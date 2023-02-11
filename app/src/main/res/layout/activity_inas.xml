@@ -1,9 +1,112 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".inas">
+    tools:context=".inas"
+    android:background="@drawable/_background">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView
+        android:id="@+id/txtProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My Profile"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:textSize="40sp"
+        android:textColor="@color/brown_2"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:id="@+id/imgGuren"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/Ichinose"
+        android:layout_below="@+id/txtProfile"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"/>
+
+    <TextView
+        android:id="@+id/txtNama"
+        android:layout_width="330dp"
+        android:layout_height="33dp"
+        android:text="Nama = Inas Tsabitah Dien"
+        android:layout_below="@+id/imgGuren"
+        android:gravity="center"
+        android:layout_marginTop="49dp"
+        android:textSize="17sp"
+        android:background="@drawable/background_1"
+        android:layout_centerHorizontal="true"
+        android:textStyle="italic"
+        android:textColor="@color/brown_2"/>
+
+    <TextView
+        android:id="@+id/txtKelas"
+        android:layout_width="330dp"
+        android:layout_height="33dp"
+        android:text="Kelas = 10 PPLG 2"
+        android:layout_below="@+id/txtNama"
+        android:gravity="center"
+        android:layout_marginTop="11dp"
+        android:textSize="17sp"
+        android:background="@drawable/background_1"
+        android:layout_centerHorizontal="true"
+        android:textStyle="italic"
+        android:textColor="@color/brown_2"/>
+
+    <TextView
+        android:id="@+id/txtTTL"
+        android:layout_width="330dp"
+        android:layout_height="33dp"
+        android:text="TTL = Tangerang, 22 Februari 2007"
+        android:layout_below="@+id/txtKelas"
+        android:gravity="center"
+        android:layout_marginTop="11dp"
+        android:textSize="17sp"
+        android:background="@drawable/background_1"
+        android:layout_centerHorizontal="true"
+        android:textStyle="italic"
+        android:textColor="@color/brown_2"/>
+
+    <TextView
+        android:id="@+id/txtAsal"
+        android:layout_width="330dp"
+        android:layout_height="33dp"
+        android:text="Asal = Kabupaten Tangerang, Banten"
+        android:layout_below="@+id/txtTTL"
+        android:gravity="center"
+        android:layout_marginTop="11dp"
+        android:textSize="17sp"
+        android:background="@drawable/background_1"
+        android:layout_centerHorizontal="true"
+        android:textStyle="italic"
+        android:textColor="@color/brown_2"/>
+
+    <TextView
+        android:id="@+id/txtAgama"
+        android:layout_width="330dp"
+        android:layout_height="33dp"
+        android:text="Agama = Islam"
+        android:layout_below="@+id/txtAsal"
+        android:gravity="center"
+        android:layout_marginTop="11dp"
+        android:textSize="17sp"
+        android:background="@drawable/background_1"
+        android:layout_centerHorizontal="true"
+        android:textStyle="italic"
+        android:textColor="@color/brown_2"/>
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BACK"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/txtAgama"
+        android:layout_marginTop="31dp"
+        android:backgroundTint="@color/brown_1"
+        android:textColor="@color/brown_3"/>
+
+</RelativeLayout>
