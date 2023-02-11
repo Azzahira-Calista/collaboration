@@ -23,7 +23,7 @@
         android:id="@+id/imgGuren"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/Ichinose"
+        android:src="@drawable/ichinose"
         android:layout_below="@+id/txtProfile"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="15dp"/>
