@@ -9,10 +9,14 @@
 
     <ImageView
         android:layout_width="230dp"
-        android:layout_height="wrap_content"
+        android:layout_height="300dp"
         android:src="@drawable/img_1"
-        tools:layout_editor_absoluteX="90dp"
-        tools:layout_editor_absoluteY="-110dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.43"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.009" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -29,6 +33,7 @@
         app:layout_constraintVertical_bias="0.423" />
 
     <TextView
+        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@color/black"
@@ -40,7 +45,7 @@
         app:layout_constraintHorizontal_bias="0.13"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.508"/>
+        app:layout_constraintVertical_bias="0.508" />
 
     <TextView
         android:layout_width="wrap_content"
