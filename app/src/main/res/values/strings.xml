@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">collaboration</string>
+    <string name="masukkan_username">Masukkan Username</string>
+    <string name="masukkan_password">Masukkan Password</string>
 </resources>
