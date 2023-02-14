@@ -103,9 +103,9 @@
         app:layout_constraintVertical_bias="0.857" />
 
     <Button
+        android:id="@+id/btnBack"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/btnBack"
         android:backgroundTint="#FFFFFF"
         android:text="Back"
         android:textColor="@color/black"
@@ -115,6 +115,7 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.948"/>
+        app:layout_constraintVertical_bias="0.948"
+        tools:ignore="TextSizeCheck" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

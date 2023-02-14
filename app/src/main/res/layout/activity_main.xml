@@ -31,26 +31,26 @@
     <EditText
         android:id="@+id/txtUsername"
         android:layout_width="270dp"
-        android:layout_height="45dp"
-        android:hint="Masukkan Username"
-        android:background="@drawable/edittextbackground"
-        android:gravity="center"
+        android:layout_height="48dp"
         android:layout_gravity="center"
         android:layout_margin="7dp"
-        android:textColor="@color/black"
-        android:inputType="text"/>
+        android:background="@drawable/edittextbackground"
+        android:gravity="center"
+        android:hint="Masukkan Username"
+        android:inputType="text"
+        android:textColor="@color/black" />
 
     <EditText
         android:id="@+id/txtPassword"
         android:layout_width="270dp"
-        android:layout_height="45dp"
-        android:hint="Masukkan Password"
-        android:background="@drawable/edittextbackground"
-        android:gravity="center"
+        android:layout_height="48dp"
         android:layout_gravity="center"
         android:layout_margin="7dp"
-        android:textColor="@color/black"
-        android:inputType="textPassword"/>
+        android:background="@drawable/edittextbackground"
+        android:gravity="center"
+        android:hint="Masukkan Password"
+        android:inputType="textPassword"
+        android:textColor="@color/black" />
 
     <Button
         android:id="@+id/btnMasuk"
