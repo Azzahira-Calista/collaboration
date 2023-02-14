@@ -2,4 +2,7 @@
     <string name="app_name">collaboration</string>
     <string name="masukkan_username">Masukkan Username</string>
     <string name="masukkan_password">Masukkan Password</string>
+    <string name="enter_your_account">Enter Your Account</string>
+    <string name="welcome">WELCOME</string>
+    <string name="masuk">MASUK</string>
 </resources>
