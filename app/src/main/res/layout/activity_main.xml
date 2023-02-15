@@ -33,24 +33,22 @@
         android:layout_width="270dp"
         android:layout_height="48dp"
         android:hint="@string/masukkan_username"
-        android:background="@drawable/edittextbackground"
         android:gravity="center"
         android:layout_gravity="center"
         android:inputType="text"
         android:layout_margin="7dp"
-        android:textColor="@color/black"/>
+        android:textColor="@color/white"/>
 
     <EditText
         android:id="@+id/txtPassword"
         android:layout_width="270dp"
         android:layout_height="48dp"
         android:hint="@string/masukkan_password"
-        android:background="@drawable/edittextbackground"
         android:gravity="center"
         android:layout_gravity="center"
         android:inputType="textPassword"
         android:layout_margin="7dp"
-        android:textColor="@color/black"/>
+        android:textColor="@color/white"/>
 
     <Button
         android:id="@+id/btnMasuk"
